@@ -1,0 +1,17 @@
+@import 'base/mixins';
+
+footer {
+    ul {
+        @include flexbox;
+        @include center;
+        margin-bottom: 0px; 
+
+        li {
+            @include inline-flex;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
