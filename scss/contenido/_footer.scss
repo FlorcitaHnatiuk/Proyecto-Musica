@@ -1,5 +1,7 @@
 @import 'base/mixins';
 
+
+//FOOTER
 footer {
     ul {
         @include flexbox;
@@ -10,8 +12,71 @@ footer {
             @include inline-flex;
             a {
                 text-decoration: none;
+                color: rgb(138, 138, 138);
+
+                &:hover{
+                    text-decoration: underline;
+                    color: rgb(138, 138, 138);
+                }
             }
         }
     }
+    span{
+        color: rgba(255, 255, 255, 0.3);
+    }
 }
+
+
+//HEADER
+
+/*header {
+    nav{
+        @include flexbox; 
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem 2rem 1rem;
+        margin: 0px
+    }
+    ul {
+        @include flexbox;
+        li {
+            @include inline-flex;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}*/
+
+
+
+.navbar{
+        @include flexbox; 
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem 2rem 1rem;
+        margin: 0px;
+
+        ul{
+            @include inline-flex;
+            float: right;
+            
+            :first-child{
+                padding-right: 3rem;
+            }
+
+            a{
+                font-size: 20px; 
+                color: rgb(218, 218, 218);
+                text-decoration: none;
+                padding: 0 !important;
+            }
+        }
+}
+
+
+.size-logo img{
+    width: 70%;
+}
+
 
