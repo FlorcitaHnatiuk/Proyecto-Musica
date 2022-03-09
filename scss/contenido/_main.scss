@@ -97,7 +97,7 @@
             text-align: center;
             font-size: 1.8rem;
             font-family: Montserrat, Helvetica, sans-serif !important;
-            font-weight: 100;
+            font-weight: 200;
         }
     }
 }
@@ -199,6 +199,15 @@
         }
         p{
             font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 468px){
+    .article div{
+        p{
+            font-size: 1.2rem;
+            font-weight: 200;
         }
     }
 }
