@@ -127,7 +127,7 @@
 
     }
 
-    button{
+    a{
         color: rgb(255, 255, 255);
         font-weight: 700;
         background-color: rgb(224, 91, 28);
@@ -155,4 +155,50 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     margin-right: 1rem;
+}
+
+
+@media (max-width: 1199px){
+    .article{
+        flex-direction: column;
+
+        img{
+            width: 80%;
+            height: 80%;
+            padding-bottom: 3rem;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .article {
+        img{
+            &:first-child{
+                width: 94%;
+                height: 80%;
+            }
+        } 
+
+        div{
+            h3{
+                font-size: 3.2rem;
+            }
+
+            p{
+                font-size: 1.5rem;
+            }
+        }
+            
+    }
+}
+
+@media (max-width: 520px){
+    .article div{
+        h3{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    }
 }

@@ -74,3 +74,22 @@ nav{
 }
 
 
+@media (max-width: 767px){
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        ul{
+            padding-left: 0;
+        }
+    }
+    .size-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+}
+
