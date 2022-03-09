@@ -165,7 +165,7 @@
         img{
             width: 80%;
             height: 80%;
-            padding-bottom: 3rem;
+            padding-bottom: 4rem;
         }
     }
 }
@@ -206,8 +206,13 @@
 @media (max-width: 468px){
     .article div{
         p{
-            font-size: 1.2rem;
-            font-weight: 200;
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+        h3{
+            font-size: 2.7rem;
         }
     }
 }
+
+
