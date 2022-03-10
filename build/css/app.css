@@ -384,7 +384,11 @@ p {
 }
 
 body {
-  background-color: #4B4D4C;
+  background-image: url(/build/img/black-geo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   overflow-x: hidden;
   width: 100%;
   margin: 0 auto;
@@ -518,6 +522,8 @@ body {
   margin-top: 3rem;
   text-decoration: none !important;
   box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
 }
 .final-white a:hover {
   background-color: rgba(224, 91, 28, 0.8);
@@ -571,7 +577,6 @@ body {
     padding: 8rem 0;
   }
   .final-white a {
-    width: 90%;
     font-size: 2.5rem;
   }
 
@@ -602,7 +607,6 @@ body {
     padding: 7rem 0;
   }
   .final-white a {
-    width: 90%;
     font-size: 2rem;
   }
   .final-white h3 {
@@ -625,7 +629,6 @@ body {
     padding: 7rem 0;
   }
   .final-white a {
-    width: 100%;
     font-size: 1.4rem;
   }
 

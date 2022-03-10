@@ -21,7 +21,11 @@ p{
 }
 
 body{
-    background-color: #4B4D4C;
+    background-image: url(/build/img/black-geo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     overflow-x: hidden;
     width: 100%;
     margin: 0 auto;
