@@ -384,7 +384,7 @@ p {
 }
 
 body {
-  background-image: url(/build/img/black-geo.png);
+  background-image: url(../img/black-geo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
