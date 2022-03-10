@@ -40,6 +40,12 @@ footer {
     }
 }
 
+@media (max-width: 480px){
+    footer ul{
+        padding-bottom: 1rem;
+    }
+}
+
 //HEADER
 
 nav{

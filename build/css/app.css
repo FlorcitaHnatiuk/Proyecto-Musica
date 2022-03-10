@@ -628,6 +628,13 @@ body {
     width: 100%;
     font-size: 1.4rem;
   }
+
+  .text-cover h1 {
+    font-size: 3.5rem;
+  }
+  .text-cover p {
+    font-size: 2rem;
+  }
 }
 footer {
   padding: 5rem 0;
@@ -671,6 +678,11 @@ footer span {
 @media (max-width: 480px) {
   footer ul li a {
     font-size: 1.3rem;
+  }
+}
+@media (max-width: 480px) {
+  footer ul {
+    padding-bottom: 1rem;
   }
 }
 nav {
