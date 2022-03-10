@@ -7,9 +7,7 @@
 
 .Image-cover{
     background-image: url(../img/crowd-cropped.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     border-radius: 2rem;
     border-color: rgb(45, 45, 45);
     outline: none;
@@ -54,9 +52,11 @@
     border-color: rgb(45, 45, 45);
     border-width: 1rem;
     border-style: solid;
+}
 
+.grid{
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 
@@ -109,6 +109,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5rem 0;
 
     h3{
         font-family: "Open Sans", Helvetica, sans-serif !important;
@@ -168,6 +169,11 @@
             padding-bottom: 4rem;
         }
     }
+
+    .final-white{
+        padding: 10rem 0;
+    }
+    
 }
 
 @media (max-width: 767px){
@@ -187,8 +193,16 @@
             p{
                 font-size: 1.5rem;
             }
+        }       
+    }
+
+    .final-white{
+        padding: 8rem 0;
+
+        a{
+            width: 90%;
+            font-size: 2.5rem;
         }
-            
     }
 }
 
@@ -199,6 +213,23 @@
         }
         p{
             font-size: 1.3rem;
+        }
+    }
+
+    .final-white{
+        padding: 7rem 0;
+
+        a{
+            width: 90%;
+            font-size: 2rem;
+        }
+
+        h3{
+            font-size: 3.3rem;
+        }
+
+        p{
+            font-size: 1.7rem;
         }
     }
 }
@@ -213,6 +244,18 @@
             font-size: 2.7rem;
         }
     }
+
+    .final-white{
+        padding: 7rem 0;
+
+        a{
+            width: 100%;
+            font-size: 1.4rem;
+        }
+
+    }
 }
+
+
 
 
