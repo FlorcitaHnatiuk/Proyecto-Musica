@@ -140,6 +140,8 @@
         box-sizing: border-box;
         text-align: center;
         display: inline-block;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
 
         &:hover{
             background-color: rgba(224, 91, 28, 0.8);
