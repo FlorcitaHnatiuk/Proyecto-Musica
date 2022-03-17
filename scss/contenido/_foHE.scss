@@ -71,11 +71,11 @@ nav{
             padding-top: 0.5rem;
             
             :first-child{
-                padding-right: 3rem;
+                padding-right: 5.5rem;
             }
 
             a{
-                font-size: 2.3rem; 
+                font-size: 1.8rem; 
                 color: rgb(218, 218, 218);
                 text-decoration: none;
                 padding: 0 !important;
@@ -85,7 +85,7 @@ nav{
 
 
 .size-logo img{
-    width: 85%;
+    width: 80%;
 }
 
 @media (max-width: 991px){
@@ -109,7 +109,7 @@ nav{
 
 @media (max-width: 392px){
     .size-logo img{
-        width: 95%;
+        width: 80%;
     }
 }
 

@@ -440,7 +440,7 @@ body {
   font-size: 3rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.81);
-  line-height: 5rem;
+  line-height: 3.5rem;
   font-family: "Montserrat", Helvetica, sans-serif;
 }
 
@@ -491,8 +491,8 @@ body {
 .article div p {
   text-align: center;
   font-size: 1.8rem;
-  font-family: Montserrat, Helvetica, sans-serif !important;
-  font-weight: 200;
+  font-family: "Montserrat", Helvetica, sans-serif !important;
+  font-weight: 400;
 }
 
 .final-white {
@@ -515,6 +515,7 @@ body {
   font-size: 1.8rem;
   font-family: "Montserrat", Helvetica, sans-serif !important;
   margin-bottom: 0;
+  font-weight: 400;
 }
 .final-white a {
   color: white;
@@ -724,17 +725,17 @@ nav {
   padding-top: 0.5rem;
 }
 .navbar ul :first-child {
-  padding-right: 3rem;
+  padding-right: 5.5rem;
 }
 .navbar ul a {
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   color: #dadada;
   text-decoration: none;
   padding: 0 !important;
 }
 
 .size-logo img {
-  width: 85%;
+  width: 80%;
 }
 
 @media (max-width: 991px) {
@@ -757,6 +758,6 @@ nav {
 }
 @media (max-width: 392px) {
   .size-logo img {
-    width: 95%;
+    width: 80%;
   }
 }
